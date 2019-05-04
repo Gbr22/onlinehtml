@@ -1,0 +1,41 @@
+#code, #code_syntax, #output {
+    width: 50vw;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top:0;
+    left: 0;
+    resize: none;
+    font-size: 15px;
+    font-family: 'Roboto Mono', monospace;
+    border: none;
+    outline: none;
+    overflow-y:scroll;
+    overflow-x: scroll;
+}
+#code_syntax {
+    white-space: pre;
+}
+body, html {
+    overflow: hidden;
+}
+#output {
+    right: 0;
+    left: unset;
+}
+#code {
+    background: transparent;
+    color: transparent;
+    caret-color: rgb(204, 204, 204);
+    tab-size: 1.2em;
+    -moz-tab-size: 1.2em;
+    display:inline-block;
+}
+::selection {
+    background: #246fe048; /* WebKit/Blink Browsers */
+}
+.tab {
+    display: inline-block;
+    width: 1.2em;
+}
